@@ -25,8 +25,8 @@ description              : "AI Engineer, Machine Learning Engineer, Deep Learnin
 url                      : "https://karthika-ml.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "karthika-ml/karthika-ml.github.io"
-teaser                   : "/assets/images/serene.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/logo.png"
+teaser                   : "./assets/images/serene.PNG" # path of fallback teaser image, e.g. "/assets/images/500x300.PNG"
+logo                     : "./assets/images/logo.PNG"
 masthead_title           : "Professional Portfolio"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Karthika Vadivel"
-  avatar           : "/assets/images/avatar1.png"
+  avatar           : "./assets/images/avatar1.PNG"
   bio              : "I'm Karthika, an AI engineer on a mission to shape the future. With a passion for problem-solving and a sprinkle of magic, I'm building a world where AI enhances human potential."
   location         : "Pittsburgh, PA, USA"
   email            : "karthika.ncsu@gmail.com"
