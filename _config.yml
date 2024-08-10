@@ -25,8 +25,8 @@ description              : "AI Engineer, Machine Learning Engineer, Deep Learnin
 url                      : "https://karthika-ml.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "karthika-ml/karthika-ml.github.io"
-teaser                   : "./assets/images/serene.PNG" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "./assets/images/logo.png"
+teaser                   : "/assets/images/serene.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/images/logo.png"
 masthead_title           : "Professional Portfolio"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
