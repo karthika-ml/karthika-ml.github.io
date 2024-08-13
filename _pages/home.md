@@ -12,27 +12,27 @@ excerpt: >
  <br /> <br />
 
 feature_row:
-  - image_path: ./assets/images/experience.PNG #resize to 320*320
-    alt: "Work Experience"
-    title: "Work Experience"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: ./assets/images/education.PNG #/assets/images/mm-customizable-feature.png #resize to 320*320
-    alt: "cEducation"
-    title: "Education and Certifications"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
   - image_path: ./assets/images/projects.PNG #/assets/images/mm-free-feature.png #resize to 320*320
     alt: "Projects"
     title: "Projects"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+    excerpt: "Featured AI and ML projects showcasing innovation in LLMs and Computer Vision"
+    url: "/projects/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "Learn more"   
+  - image_path: ./assets/images/certif.jpeg #/assets/images/mm-customizable-feature.png #resize to 320*320
+    alt: "Education"
+    title: "Education"
+    excerpt: "Validated skills in AI and ML through industry-recognized certifications"
+    url: "/education/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - image_path: ./assets/images/experience.PNG #resize to 320*320
+    alt: "Work Experience"
+    title: "Work Experience"
+    excerpt: "Extensive experience in AI and ML, delivering innovative solutions across diverse industries"
+    url: "/experience"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
 ---
 
 {% include feature_row %}
