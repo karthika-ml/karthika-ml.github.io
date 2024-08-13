@@ -84,7 +84,7 @@ author_profile: true
         .jobDate {
             text-align: right;
             font-size: 14px;
-            color: #999;
+            color: #666;
         }
         .separator {
             margin: 10px;
