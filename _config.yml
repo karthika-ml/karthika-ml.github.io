@@ -160,11 +160,16 @@ footer:
     #   icon: "fab fa-fw fa-instagram"
       # url:
 
+# Sidebar on Projects page
+sidebar:
+  title: "Projects Menu"
+  nav: projects-sidebar
 
 # Reading Files
 include:
   - .htaccess
   - _pages
+  - _projects
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -234,6 +239,9 @@ collections:
   education:
     output: true
     permalink: /:collection/:path/
+  llmprojects:
+    output: true
+    permalink: /:collection/:path/
 
 
 
@@ -246,7 +254,7 @@ paginate_path: /page:num/
 #   for configuration details
 pagination:
   # Set enabled to true to use paginate v2
-  # enabled: true
+  enabled: False
   debug: false
   collection: 'posts'
   per_page: 10
@@ -337,4 +345,18 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: archive
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      toc_sticky: False
+      sidebar:
+        nav: projects-sidebar
+
 

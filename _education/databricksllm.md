@@ -6,7 +6,7 @@ header:
   image: #/assets/images/unsplash-gallery-image-2.jpg
   teaser: ./assets/images/edx_logo.png
 gallery:
-  - url: .assets/images/databricksfoundationllm.png
+  - url: ./assets/images/databricksfoundationllm.png
     image_path: ./assets/images/databricksfoundationllm.png
     link: https://courses.edx.org/certificates/f01e40651ec9489cad5023606046162c
     alt: "edX Verified Certificate for Large Language Models: Foundation Models from the Ground Up"

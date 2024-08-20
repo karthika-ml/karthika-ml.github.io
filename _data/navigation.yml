@@ -8,6 +8,22 @@ main:
     url: /education/
   - title: "Projects"
     url: /projects/
-  - title: "Posts"
-    url: /posts/
+  - title: "Blogs"
+    url: /blogs/
+
+projects-sidebar:
+  - title: "Computer Vision"
+    children:
+      - title: "Child Page A1"
+        url: /projects/childa1/
+  - title: "Generative AI"
+    children:
+      - title: "Child Page B1"
+        url: /projects/childb1/
+  - title: "Data Science"
+    children:
+      - title: "Child Page C1"
+        url: /projects/childc1
+      - title: "Child Page C2"
+        url: /projects/childc2
 

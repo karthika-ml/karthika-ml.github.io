@@ -63,15 +63,6 @@ classes: wide
                 font-size: 15px;
                 color: #666;
             }
-            .education-item h3 {
-                margin: 0;
-                color: #008AD8;
-                font-size: 18px
-            }
-            .education-item p {
-                margin: 5px 0;
-                font-size: 14px
-            }
         </style>
     </head>
     <body>
